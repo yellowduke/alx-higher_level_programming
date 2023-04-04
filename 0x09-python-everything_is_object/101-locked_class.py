@@ -3,9 +3,10 @@
 Defines a class with no class or object attributes
 """
 
+
 class LockedClass:
     """
-    Prevents the user from dynamically creating new instance attributes except new intamce attribute is called first_name
+    Prevent the user from creating new instance attribute
     """
 
     __slots__ = ["first_name"]
