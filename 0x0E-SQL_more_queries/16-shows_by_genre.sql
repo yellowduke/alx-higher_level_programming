@@ -1,4 +1,4 @@
--- A qauery that lists all shows, and all genres linked to that show, from the database hbtn_0d_tvshows.
+-- Script that lists all shows, and all genres linked to that show, from the database hbtn_0d_tvshows.
 SELECT tv_s.title, tv_g.name
 FROM tv_shows AS tv_s
 LEFT JOIN tv_show_genres AS tv_s_g
